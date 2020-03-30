@@ -5,7 +5,7 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "example" {
-count = 2
+count = 4
 ami = "ami-0fc61db8544a617ed"
 instance_type = "t2.micro"
 key_name = "mangesh-test"
